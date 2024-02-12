@@ -68,8 +68,6 @@ Perfect chunksize should be large enough that the cashlines do not share cache l
     int N; // Number of processors
     int x[N]; // The x elements held by each processor
     int y[N]; // The y elements held by each processor
-    MPI_Request send_request[N];
-    MPI_Request recv_request[N];
 
     for (int i = 0; i < N; i++) {
         // receive
