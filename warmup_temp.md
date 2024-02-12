@@ -11,7 +11,24 @@ Based on the first touch policy, which states that, the first thread to touch th
 ![alt text](image-2.png)
 - question 3
 ```
-// Assuming other MPI setup code has already been done, including the elegant exception handling for leftproc and rightproc
+int leftproc, rightproc;
+double bfromleft, bfromright;
+
+MPI_Comm_rank(MPI_COMM_WORLD,&myTaskID);
+MPI_Comm_size(MPI_COMM_WORLD,&nTasks);
+
+if (myTaskID==0) leftproc = MPI_PROC_NULL;
+    else leftproc = myTaskID-1;
+if (myTaskID==nTasks-1) rightproc = MPI_PROC_NULL;
+    else rightproc = myTaskID+1;
+
+if (myTaskID != 0) {
+    MPI_Sendrecv( &b[0], &bfromright, leftproc);
+}
+
+if (myTaskID != nTasks - 1) {
+    MPI_Sendrecv( &b[LocalProblemSize-1], &bfromleft,  rightproc );
+}
 
 for (i = 0; i < LocalProblemSize; i++) {
     double bleft, bright;
