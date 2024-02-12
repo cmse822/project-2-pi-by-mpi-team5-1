@@ -1,7 +1,7 @@
 ## Part one Warm-up
 
 - question 1  
-Based on the first touch policy, which states that, the first thread to touch the area in effect causes the data to be allocated on the memory of its socket. In the first serial loop, a is initialized on a single thread, and then running calculations to reassign values for a in parallel, where different sockets are trying to access a. Access to a would be slower due to the memory being non-local, it lead to performance degradation which defeats the purpose of parallelism.
+Based on the first touch policy, which states that, the first thread to touch the area in effect causes the data to be allocated on the memory of its socket. In the first serial loop, array_a is initialized on a single thread, and then running calculations to reassign values for array_a in parallel, where different sockets are trying to access array_a. Access to array_a would be slower due to the memory being non-local, it lead to performance degradation which defeats the purpose of parallelism.
 
 - question 2
 
@@ -62,7 +62,7 @@ for (i = 0; i < LocalProblemSize; i++) {
 - question 4
 
 
-- question 5
+- question 5  
 As mentioned in the discussion point above, one message is being sent instead of one, which means lesser bandwidth is required as there are lesser data waiting to be sent. There is also lower latency as the time taken to initiate and complete sending one message is lesser than four.
 
 - question 6
