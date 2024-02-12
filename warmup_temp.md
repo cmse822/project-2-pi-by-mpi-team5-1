@@ -69,7 +69,7 @@ for (i = 0; i < LocalProblemSize; i++) {
 
 ![alt text](image-4.png)
 - question 5
-
+As mentioned in the discussion point above, one message is being sent instead of one, which means lesser bandwidth is required as there are lesser data waiting to be sent. There is also lower latency as the time taken to initiate and complete sending one message is lesser than four.
 
 ![alt text](image-5.png)
 - question 6
