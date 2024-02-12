@@ -1,15 +1,12 @@
 ## Part one Warm-up
 
 - question 1  
-![alt text](warmup_qns/image-1.png)
 Based on the first touch policy, which states that, the first thread to touch the area in effect causes the data to be allocated on the memory of its socket. In the first serial loop, a is initialized on a single thread, and then running calculations to reassign values for a in parallel, where different sockets are trying to access a. Access to a would be slower due to the memory being non-local, it lead to performance degradation which defeats the purpose of parallelism.
 
 - question 2
-![alt text](warmup_qns/image.png)
 
 
 - question 3
-![alt text](warmup_qns/image-2.png)
 ```
 int leftproc, rightproc;
 double bfromleft, bfromright;
@@ -63,13 +60,11 @@ for (i = 0; i < LocalProblemSize; i++) {
 ```
 
 - question 4
-![alt text](warmup_qns/image-3.png)
 
 
 - question 5
-![alt text](warmup_qns/image-4.png)
 As mentioned in the discussion point above, one message is being sent instead of one, which means lesser bandwidth is required as there are lesser data waiting to be sent. There is also lower latency as the time taken to initiate and complete sending one message is lesser than four.
 
 - question 6
-![alt text](warmup_qns/image-5.png)
+
 
