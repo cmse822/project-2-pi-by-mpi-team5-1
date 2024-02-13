@@ -83,7 +83,7 @@ Perfect chunksize should be large enough that the cashlines do not share cache l
         }
     }
     ```
-non-blocking allows for overlapping communication with computation, thus reducing the overall execution time of parallel programs. Moreover, it is not necessary to use MPI_Wait to pause program execution until each send or receive operation has finished.  
+    non-blocking allows for overlapping communication with computation, thus reducing the overall execution time of parallel programs. Moreover, it is not necessary to use MPI_Wait to pause program execution until each send or receive operation has finished.  
 
 - Exercise 2.23  
 As mentioned in the discussion point above, one message is being sent instead of one, which means lesser bandwidth is required as there are lesser data waiting to be sent. There is also lower latency as the time taken to initiate and complete sending one message is lesser than four.
