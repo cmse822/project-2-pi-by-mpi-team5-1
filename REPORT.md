@@ -98,7 +98,11 @@ If a computer can do its calculations while it's waiting for data to arrive from
 
 
 ### Part 3
-- hello.cpp  
+- Hello World  
+Code: task3_hello.cpp   
+Executable: task3_hello   
+Output: task3_hello.output  
+
 
 - task3_question2.3.cpp  
 
