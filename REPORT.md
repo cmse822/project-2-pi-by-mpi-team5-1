@@ -98,9 +98,12 @@ If a computer can do its calculations while it's waiting for data to arrive from
 N/A
 
 ### Part 3
-- hello.cpp
-- Exercise 2.3
-- Exercise 2.4
+- hello.cpp  
+
+- Exercise 2.3  
+
+- Exercise 2.4  
+
 - Exercise 2.5
 
 ### Part 4
