@@ -89,22 +89,22 @@ Perfect chunksize should be large enough that the cashlines do not share cache l
 As mentioned in the discussion point above, one message is being sent instead of one, which means lesser bandwidth is required as there are lesser data waiting to be sent. There is also lower latency as the time taken to initiate and complete sending one message is lesser than four.
 
 - Exercise 2.27  
-If computation takes no time at all, the program's execution time is entirely bound by communication time. In this case, overlapping also provides no benefit.
-If communication takes no time, the execution time is bound by the computation time. Here, overlapping also provides no benefit.
-General case(Both Computation and Communication Take Time): 
-If a computer can do its calculations while it's waiting for data to arrive from another computer. We basically saved half of the total time(waiting + computation).
+If computation takes no time at all, the program's execution time is entirely bound by communication time. In this case, overlapping provides no benefit.
+If communication takes no time, the execution time is bound by the computation time. Here, overlapping provides no benefit. General case (both computation and communication take time): 
+If a computer can do its calculations while it's waiting for data to arrive from another computer. We basically saved half of the total time.
 
 ### Part 2
-N/A
+![part2_result](../project-2-pi-by-mpi-team5-1/part2_result.png)
+
 
 ### Part 3
-- hello.cpp  
+- task3_question.cpp  
 
-- Exercise 2.3  
+- task3_question2.3.cpp  
 
-- Exercise 2.4  
+- task3_question2.4.cpp  
 
-- Exercise 2.5
+- task3_question2.5.cpp  
 
 ### Part 4
 To be completed
