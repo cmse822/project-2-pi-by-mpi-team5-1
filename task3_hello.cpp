@@ -15,3 +15,8 @@ int main(int argc, char *argv[]) {
     cout << "after finalize, " << "rank: " << rank << endl;
     return 0;
 }
+
+// to run the program 
+// salloc -n 4 --time 00:30:00
+// mpic++ task3_hello.cpp -o task3_hello
+// mpiexec -n 4 ./task3_hello > task3_hello.output
