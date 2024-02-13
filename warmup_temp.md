@@ -81,7 +81,8 @@ Perfect chunksize should be large enough that the cashlines do not share cache l
         // send
         if (i < N - 1) {
             MPI_Isend(buffer=x[i], sender=i+1, &send_request);
-        } else {
+        } 
+        if (i == N - 1) {
         MPI_Isend(buffer=x[n-1], sender=0, &send_request);
         }
     }
@@ -96,3 +97,7 @@ If computation takes no time at all, the program's execution time is entirely bo
 If communication takes no time, the execution time is bound by the computation time. Here, overlapping also provides no benefit.
 General case(Both Computation and Communication Take Time): 
 If a computer can do its calculations while it's waiting for data to arrive from another computer. We basically saved half of the total time(waiting + computation).
+
+
+## part two
+![part two result](./part2_result.png)
