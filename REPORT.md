@@ -94,8 +94,7 @@ If communication takes no time, the execution time is bound by the computation t
 If a computer can do its calculations while it's waiting for data to arrive from another computer. We basically saved half of the total time.
 
 ### Part 2
-![part2_result](task2.png)
-
+![part2_result](Part 2.png)
 
 ### Part 3
 - Hello World  
