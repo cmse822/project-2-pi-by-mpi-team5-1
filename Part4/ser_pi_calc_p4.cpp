@@ -34,30 +34,35 @@ int main(int argc, char *argv[]) {
     MPI_Comm_size(MPI_COMM_WORLD, &size);
     int darts = 10000;
     int rounds = 100;
-    int total_rounds = darts*rounds; 
-    double pi_result;
-
-    int rounds_per_rank = total_rounds / size;
-    cout<<"size: "<< size <<" rounds: "<<rounds_per_rank<<endl;
-    int extra = total_rounds % size; 
-    if (rank < extra) {
-        rounds_per_rank++;
-    }
-
-    double start_time = MPI_Wtime();
-    calculateAndPrintPi(rounds_per_rank, rank, size, &pi_result);
-    double end_time = MPI_Wtime();
-
-    double local_run_time = end_time - start_time;
-    cout<<"Rank: "<< rank << " Calculation took "<<local_run_time<< " seconds."<< endl;
-
-    double total_run_time;
-    MPI_Reduce(&local_run_time, &total_run_time, 1, MPI_DOUBLE, MPI_MAX, 0, MPI_COMM_WORLD);
+    vector<int> darts_list = {1000,1000000,1000000000};
     
-    if (rank == 0) {
-        cout<<"Total runtime = " << total_run_time << endl;
-    }
+    double pi_result;
+    
+    for (auto dart:darts_list){
+        int total_rounds = dart*rounds; 
+        int rounds_per_rank = total_rounds / size;
+        cout << dart << endl;
+        int extra = total_rounds % size; 
+        if (rank < extra) {
+            rounds_per_rank++;
+        }
 
+        double start_time = MPI_Wtime();
+        calculateAndPrintPi(rounds_per_rank, rank, size, &pi_result);
+        double end_time = MPI_Wtime();
+
+        double local_run_time = end_time - start_time;
+        cout<<"Rank: "<< rank << " Calculation took "<<local_run_time<< " seconds."<< endl;
+
+        double total_run_time;
+        MPI_Reduce(&local_run_time, &total_run_time, 1, MPI_DOUBLE, MPI_MAX, 0, MPI_COMM_WORLD);
+        
+        if (rank == 0) {
+            cout<<"Total runtime = " << total_run_time << endl;
+        }
+        cout << endl;
+    
+    }
     MPI_Finalize();
     return 0;
 }
