@@ -15,7 +15,7 @@ int main(int argc, char *argv[]) {
     // std::cout << "Processor rank: " << rank << std::endl;
     // std::cout << "Processor numtasks: " << numtasks << std::endl;
     std::stringstream iss;
-    iss << "process_" << rank << ".txt";
+    iss << "task3_question2.4_" << "process_" << rank << ".txt";
     std::string file_name = iss.str();
 
     std::ofstream write_file(file_name.c_str());
@@ -33,13 +33,5 @@ int main(int argc, char *argv[]) {
     return 0;
 
 }
-// bash-4.2$ mpic++ task3_question2.4.cpp -o task3_question2.4_result
-// bash-4.2$ mpirun -np 4 ./task3_question2.4_result 
-// Processor rank: 3
-// Processor numtasks: 4
-// Processor rank: 0
-// Processor numtasks: 4
-// Processor rank: 1
-// Processor numtasks: 4
-// Processor rank: 2
-// Processor numtasks: 4
+// bash-4.2$ mpic++ task3_question2.4.cpp -o task3_question2.4
+// bash-4.2$ mpirun -np 4 ./task3_question2.4 >> task3_question2.4.output

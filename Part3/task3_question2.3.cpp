@@ -22,8 +22,5 @@ int main(int argc, char *argv[]) {
 
     return 0;
     // salloc -N 2 --ntasks-per-node=1 --time=00:10:00, command requests an interactive job with two nodes
-    // mpirun -np 2 ./task3_question2.3_result
-
-    // Processor name: lac-050
-    // Processor name: lac-051
+    // mpirun -np 2 ./task3_question2.3 >> task3_question2.3.output
 }

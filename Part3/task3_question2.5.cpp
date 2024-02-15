@@ -18,6 +18,6 @@ int main(int argc, char *argv[]) {
 
     return 0;
 }
-// bash-4.2$ mpic++ task3_question2.5.cpp -o task3_question2.5_result
-// bash-4.2$ mpirun -np 4 ./task3_question2.5_result 
+// bash-4.2$ mpic++ task3_question2.5.cpp -o task3_question2.5
+// bash-4.2$ mpirun -np 4 ./task3_question2.5
 // Process0 report: there are 4 processes in total.

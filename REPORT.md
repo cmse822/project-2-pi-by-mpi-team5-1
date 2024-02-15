@@ -94,7 +94,7 @@ If communication takes no time, the execution time is bound by the computation t
 If a computer can do its calculations while it's waiting for data to arrive from another computer. We basically saved half of the total time.
 
 ### Part 2
-![part2_result](Part 2.png)
+![part2_result](Part2.png)
 
 ### Part 3
 - Hello World  
@@ -102,12 +102,24 @@ Code: task3_hello.cpp
 Executable: task3_hello   
 Output: task3_hello.output  
 
+- 2.3     
+Code: task3_question2.3.cpp   
+Executable: question2.3  
+Output: task3_question2.3.output  
 
-- task3_question2.3.cpp  
+- 2.4    
+Code: task3_question2.4.cpp   
+Executable: question2.4  
+Output: task3_question2.4_process_0.txt     
+        task3_question2.4_process_1.txt    
+        task3_question2.4_process_2.txt    
+        task3_question2.4_process_3.txt
 
-- task3_question2.4.cpp  
+- 2.5    
+Code: task3_question2.5.cpp   
+Executable: question2.5  
+Output: task3_question2.5.output  
 
-- task3_question2.5.cpp  
 
 ### Part 4
 To be completed
