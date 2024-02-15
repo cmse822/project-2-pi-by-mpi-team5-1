@@ -30,6 +30,11 @@ void calculateAndPrintPi(int rounds, int rank, int size, double* pi_result) {
 int main(int argc, char *argv[]) {
     MPI_Init(&argc, &argv);
     int rank, size;
+    char processor_name[MPI_MAX_PROCESSOR_NAME];
+    int len_name;
+    MPI_Get_processor_name(processor_name, &len_name);
+    std::string proc_name(processor_name, len_name);
+    std::cout << "Processor name: " << proc_name << std::endl;
     MPI_Comm_rank(MPI_COMM_WORLD, &rank);
     MPI_Comm_size(MPI_COMM_WORLD, &size);
     cout<<"total processor count: "<< size << endl;

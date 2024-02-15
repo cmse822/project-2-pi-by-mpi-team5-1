@@ -1,0 +1,240 @@
+total processor count: 2
+total processor count: 2
+1000
+1000
+Estimated Pi = 3.14
+Rank: 0 Calculation took 0.00127652 seconds.
+Rank: 1 Calculation took 0.00117527 seconds.
+Total runtime = 0.00127652
+1000000
+1000000
+Estimated Pi = 3.14152
+Rank: 0 Calculation took 0.989978 seconds.
+Rank: 1 Calculation took 0.989955 seconds.
+Total runtime = 0.989978
+1000000000
+1000000000
+Estimated Pi = 3.14159
+Rank: 0 Calculation took 10.541 seconds.
+Rank: 1 Calculation took 10.4339 seconds.
+Total runtime = 10.541
+srun: Job 31329135 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Step created for StepId=31329135.1
+total processor count: 4
+total processor count: 4
+total processor count: 4
+total processor count: 4
+1000
+1000
+1000
+1000
+Estimated Pi = 3.14596
+Rank: 0 Calculation took 0.000658061 seconds.
+Rank: 1 Calculation took 0.000598869 seconds.
+Rank: 2 Calculation took 0.000589192 seconds.
+Rank: 3 Calculation took 0.000586888 seconds.
+Total runtime = 0.000658061
+1000000
+1000000
+1000000
+1000000
+Estimated Pi = 3.14149
+Rank: 0 Calculation took 0.568096 seconds.
+Rank: 2 Calculation took 0.35236 seconds.
+Rank: 3 Calculation took 0.356765 seconds.
+Total runtime = 0.568096
+1000000000
+Rank: 1 Calculation took 0.568096 seconds.
+1000000000
+1000000000
+1000000000
+Estimated Pi = 3.14158
+Rank: 0 Calculation took 6.44252 seconds.
+Total runtime = 6.44252
+Rank: 1 Calculation took 6.4425 seconds.
+Rank: 2 Calculation took 6.08164 seconds.
+Rank: 3 Calculation took 6.33874 seconds.
+srun: Job 31329135 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Step created for StepId=31329135.2
+total processor count: 8
+total processor count: 8
+total processor count: 8
+total processor count: 8
+total processor count: 8
+total processor count: 8
+total processor count: 8
+total processor count: 8
+1000
+1000
+1000
+1000
+1000
+1000
+1000
+1000
+Estimated Pi = 3.14096
+Rank: 0 Calculation took 0.000422851 seconds.
+Rank: 6 Calculation took 0.000311402 seconds.
+Rank: 1 Calculation took 0.00029922 seconds.
+Rank: 2 Calculation took 0.000340267 seconds.
+Rank: 4 Calculation took 0.000328094 seconds.
+Rank: 5 Calculation took 0.00029932 seconds.
+Rank: 3 Calculation took 0.000298459 seconds.
+Rank: 7 Calculation took 0.000301735 seconds.
+Total runtime = 0.000422851
+1000000
+1000000
+1000000
+1000000
+1000000
+1000000
+1000000
+1000000
+Estimated Pi = 3.14167
+Rank: 0 Calculation took 0.271733 seconds.
+Rank: 1 Calculation took 0.179594 seconds.
+Rank: 2 Calculation took 0.186756 seconds.
+Rank: 3 Calculation took 0.174757 seconds.
+Rank: 4 Calculation took 0.271713 seconds.
+Rank: 5 Calculation took 0.181577 seconds.
+Rank: 6 Calculation took 0.18836 seconds.
+1000000000
+Rank: 7 Calculation took 0.18835 seconds.
+1000000000
+Total runtime = 0.271733
+1000000000
+1000000000
+1000000000
+1000000000
+1000000000
+1000000000
+Estimated Pi = 3.14159
+Rank: 0 Calculation took 2.09388 seconds.
+Rank: 1 Calculation took 2.09083 seconds.
+Rank: 2 Calculation took 2.09386 seconds.
+Rank: 3 Calculation took 2.09385 seconds.
+Rank: 4 Calculation took 2.06314 seconds.
+Rank: 5 Calculation took 1.99155 seconds.
+Rank: 6 Calculation took 1.9953 seconds.
+Rank: 7 Calculation took 1.9953 seconds.
+Total runtime = 2.09388
+srun: Job 31329135 step creation temporarily disabled, retrying (Requested nodes are busy)
+srun: Step created for StepId=31329135.3
+total processor count: 16
+1000
+total processor count: 16
+1000
+total processor count: 16
+1000
+total processor count: 16
+1000
+total processor count: 16
+1000
+total processor count: 16
+1000
+total processor count: 16
+1000
+total processor count: 16
+1000
+total processor count: 16
+1000
+total processor count: 16
+1000
+total processor count: 16
+1000
+total processor count: 16
+1000
+total processor count: 16
+1000
+total processor count: 16
+1000
+total processor count: 16
+1000
+total processor count: 16
+1000
+Estimated Pi = 3.1366
+Rank: 0 Calculation took 0.000240971 seconds.
+Rank: 2 Calculation took 0.000153186 seconds.
+Rank: 4 Calculation took 0.000158606 seconds.
+Rank: 6 Calculation took 0.000152354 seconds.
+Rank: 8 Calculation took 0.000179236 seconds.
+Rank: 10 Calculation took 0.000148638 seconds.
+Rank: 12 Calculation took 0.000175238 seconds.
+Rank: 14 Calculation took 0.000169417 seconds.
+Rank: 1 Calculation took 0.000128078 seconds.
+Rank: 3 Calculation took 0.000126176 seconds.
+Rank: 5 Calculation took 0.000115966 seconds.
+Rank: 7 Calculation took 0.00012817 seconds.
+Rank: 9 Calculation took 0.000127889 seconds.
+Rank: 11 Calculation took 0.000125065 seconds.
+Rank: 13 Calculation took 0.000126176 seconds.
+Rank: 15 Calculation took 0.000145492 seconds.
+Total runtime = 0.000240971
+1000000
+1000000
+1000000
+1000000
+1000000
+1000000
+1000000
+1000000
+1000000
+1000000
+1000000
+1000000
+1000000
+1000000
+1000000
+1000000
+Estimated Pi = 3.14163
+Rank: 0 Calculation took 0.0968349 seconds.
+Rank: 3 Calculation took 0.0957016 seconds.
+Rank: 5 Calculation took 0.0961706 seconds.
+Rank: 6 Calculation took 0.0963135 seconds.
+Rank: 10 Calculation took 0.096187 seconds.
+Rank: 12 Calculation took 0.0958791 seconds.
+Rank: 13 Calculation took 0.0958742 seconds.
+Rank: 14 Calculation took 0.0956962 seconds.
+Rank: 1 Calculation took 0.0961553 seconds.
+Rank: 2 Calculation took 0.0959238 seconds.
+Rank: 4 Calculation took 0.0963145 seconds.
+Rank: 7 Calculation took 0.0963098 seconds.
+Rank: 8 Calculation took 0.0968222 seconds.
+Rank: 11 Calculation took 0.0961861 seconds.
+Rank: 15 Calculation took 0.0950428 seconds.
+Rank: 9 Calculation took 0.0966579 seconds.
+Total runtime = 0.0968349
+1000000000
+1000000000
+1000000000
+1000000000
+1000000000
+1000000000
+1000000000
+1000000000
+1000000000
+1000000000
+1000000000
+1000000000
+1000000000
+1000000000
+1000000000
+1000000000
+Estimated Pi = 3.14161
+Rank: 2 Calculation took 1.15033 seconds.
+Rank: 6 Calculation took 1.14768 seconds.
+Rank: 10 Calculation took 1.14907 seconds.
+Rank: 13 Calculation took 1.14032 seconds.
+Rank: 14 Calculation took 1.14963 seconds.
+Rank: 1 Calculation took 1.14449 seconds.
+Rank: 3 Calculation took 1.1496 seconds.
+Rank: 4 Calculation took 1.15017 seconds.
+Rank: 5 Calculation took 1.15016 seconds.
+Rank: 7 Calculation took 1.14582 seconds.
+Rank: 8 Calculation took 1.14981 seconds.
+Rank: 9 Calculation took 1.14957 seconds.
+Rank: 11 Calculation took 1.14907 seconds.
+Rank: 12 Calculation took 1.14964 seconds.
+Rank: 15 Calculation took 1.14963 seconds.
+Rank: 0 Calculation took 1.1505 seconds.
+Total runtime = 1.1505

@@ -1,0 +1,136 @@
+total processor count: 2
+1000
+Estimated Pi = 3.14
+Rank: 0 Calculation took 0.000926529 seconds.
+Rank: 1 Calculation took 0.000822513 seconds.
+Total runtime = 0.000926529
+1000000
+Estimated Pi = 3.14152
+Rank: 0 Calculation took 1.01454 seconds.
+Rank: 1 Calculation took 1.0267 seconds.
+Total runtime = 1.0267
+1000000000
+Estimated Pi = 3.14159
+Rank: 0 Calculation took 9.70981 seconds.
+Rank: 1 Calculation took 9.63327 seconds.
+Total runtime = 9.70981
+
+
+total processor count: 4
+1000
+Estimated Pi = 3.14596
+Rank: 0 Calculation took 0.0010926 seconds.
+Rank: 2 Calculation took 0.000434591 seconds.
+Rank: 1 Calculation took 0.000405646 seconds.
+Rank: 3 Calculation took 0.000410033 seconds.
+Total runtime = 0.0010926
+1000000
+Estimated Pi = 3.14149
+Rank: 0 Calculation took 0.536491 seconds.
+Rank: 1 Calculation took 0.525924 seconds.
+Rank: 2 Calculation took 0.519452 seconds.
+Rank: 3 Calculation took 0.527932 seconds.
+Total runtime = 0.536491
+1000000000
+Estimated Pi = 3.14158
+Rank: 0 Calculation took 4.86749 seconds.
+Rank: 3 Calculation took 4.86687 seconds.
+Rank: 1 Calculation took 4.86696 seconds.
+Rank: 2 Calculation took 4.81628 seconds.
+Total runtime = 4.86749
+
+
+total processor count: 8
+1000
+Estimated Pi = 3.14096
+Rank: 0 Calculation took 0.000363477 seconds.
+Rank: 2 Calculation took 0.000279957 seconds.
+Rank: 6 Calculation took 0.000239443 seconds.
+Rank: 1 Calculation took 0.000227259 seconds.
+Rank: 3 Calculation took 0.000231126 seconds.
+Rank: 4 Calculation took 0.00024321 seconds.
+Rank: 5 Calculation took 0.00022234 seconds.
+Rank: 7 Calculation took 0.000229363 seconds.
+Total runtime = 0.000363477
+1000000
+Estimated Pi = 3.14167
+Rank: 0 Calculation took 0.198282 seconds.
+Rank: 1 Calculation took 0.198157 seconds.
+Rank: 2 Calculation took 0.19822 seconds.
+Rank: 3 Calculation took 0.198219 seconds.
+Rank: 4 Calculation took 0.198277 seconds.
+Rank: 5 Calculation took 0.198273 seconds.
+Rank: 6 Calculation took 0.198211 seconds.
+Rank: 7 Calculation took 0.19821 seconds.
+Total runtime = 0.198282
+1000000000
+Estimated Pi = 3.14159
+Rank: 0 Calculation took 2.41273 seconds.
+Rank: 1 Calculation took 2.41194 seconds.
+Rank: 3 Calculation took 2.41059 seconds.
+Rank: 5 Calculation took 2.41134 seconds.
+Rank: 7 Calculation took 2.41058 seconds.
+Rank: 4 Calculation took 2.41272 seconds.
+Rank: 6 Calculation took 2.41272 seconds.
+Rank: 2 Calculation took 2.41063 seconds.
+Total runtime = 2.41273
+
+
+total processor count: 16
+1000
+Estimated Pi = 3.1366
+Rank: 0 Calculation took 0.000423379 seconds.
+Rank: 2 Calculation took 0.000243871 seconds.
+Rank: 1 Calculation took 0.000113464 seconds.
+Rank: 3 Calculation took 0.000112712 seconds.
+Rank: 4 Calculation took 0.000257757 seconds.
+Rank: 6 Calculation took 0.000244431 seconds.
+Rank: 7 Calculation took 0.000112011 seconds.
+Rank: 8 Calculation took 0.000348498 seconds.
+Rank: 9 Calculation took 0.000109807 seconds.
+Rank: 10 Calculation took 0.000249752 seconds.
+Rank: 11 Calculation took 0.000120709 seconds.
+Rank: 12 Calculation took 0.000344831 seconds.
+Rank: 13 Calculation took 0.000114235 seconds.
+Rank: 14 Calculation took 0.0003435 seconds.
+Rank: 5 Calculation took 0.000114466 seconds.
+Rank: 15 Calculation took 0.000119776 seconds.
+Total runtime = 0.000423379
+1000000
+Estimated Pi = 3.14163
+Rank: 0 Calculation took 0.100936 seconds.
+Rank: 1 Calculation took 0.10064 seconds.
+Rank: 2 Calculation took 0.100559 seconds.
+Rank: 3 Calculation took 0.100539 seconds.
+Rank: 4 Calculation took 0.100792 seconds.
+Rank: 5 Calculation took 0.100705 seconds.
+Rank: 6 Calculation took 0.100779 seconds.
+Rank: 7 Calculation took 0.100772 seconds.
+Rank: 8 Calculation took 0.100921 seconds.
+Rank: 9 Calculation took 0.10073 seconds.
+Rank: 10 Calculation took 0.100723 seconds.
+Rank: 11 Calculation took 0.10072 seconds.
+Rank: 12 Calculation took 0.100913 seconds.
+Rank: 13 Calculation took 0.100662 seconds.
+Rank: 14 Calculation took 0.100905 seconds.
+Rank: 15 Calculation took 0.0995065 seconds.
+Total runtime = 0.100936
+1000000000
+Estimated Pi = 3.14161
+Rank: 0 Calculation took 1.21683 seconds.
+Rank: 1 Calculation took 1.21516 seconds.
+Rank: 3 Calculation took 1.21535 seconds.
+Rank: 4 Calculation took 1.21504 seconds.
+Rank: 5 Calculation took 1.21504 seconds.
+Rank: 6 Calculation took 1.21482 seconds.
+Rank: 7 Calculation took 1.21431 seconds.
+Rank: 8 Calculation took 1.21458 seconds.
+Rank: 9 Calculation took 1.21445 seconds.
+Rank: 10 Calculation took 1.21446 seconds.
+Rank: 11 Calculation took 1.21422 seconds.
+Rank: 12 Calculation took 1.21458 seconds.
+Rank: 13 Calculation took 1.21452 seconds.
+Rank: 14 Calculation took 1.21425 seconds.
+Rank: 2 Calculation took 1.21682 seconds.
+Rank: 15 Calculation took 1.20454 seconds.
+Total runtime = 1.21683
