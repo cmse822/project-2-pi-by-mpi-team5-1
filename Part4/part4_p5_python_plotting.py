@@ -9,24 +9,22 @@ Part 5: For each processor count, plot the resulting errors in your computed val
 ################################################################################################
 
 # Currently the data in the .output files needs a bit of processing/manipulating
+
 import numpy as np
 import matplotlib.pyplot as plt
 import os
 
-# Check where we are
+# Check the current working directory
 print("Current Directory:", os.getcwd())
 
-# The true value of Pi for comparison
+# Getting true val of pi to compare
 true_pi = np.pi
-
-# A dictionary to store error data, keyed by processor count
 data = {}
 
-# Read one of the output files -- currently for computing node amd20
-with open('Part4/p7_amd20.output', 'r') as file:
+# The correct file (for number 5 is p4_6.output)
+with open('Part4/p4_6.output', 'r') as file:
     lines = file.readlines()
     
-    # Initialize vars
     processor_count = 0
     darts = 0  
     
@@ -36,27 +34,22 @@ with open('Part4/p7_amd20.output', 'r') as file:
             processor_count = int(line.split(':')[1].strip())
             data[processor_count] = []
         elif line.strip().isdigit():  
-            # Extracting number of darts from lines that contain only digits
             darts = int(line.strip())
         elif 'Estimated Pi' in line:
-            # Extracting our estimated Pi value and calculate the error
             estimated_pi = float(line.split('=')[1].strip())
             error = abs(estimated_pi - true_pi)
-            # Storing darts and error in the dictionary
-            if darts > 0:  
-                data[processor_count].append((darts, error))
+            # Storing darts and error in the dictionary for each processor count
+            data[processor_count].append((darts, error))
 
-# Plotting
+# Plotting 
 plt.figure(figsize=(10, 6))
 
-# Plot error vs. number of darts for each processor count
 for processor_count, values in data.items():
-    # Sort values by number of darts 
-    values = sorted(values, key=lambda x: x[0])  
+    # Sort values by number of darts for consistent plotting
+    values.sort(key=lambda x: x[0])  
     darts = [v[0] for v in values]
     errors = [v[1] for v in values]
     
-    # Log-log plot for each processor count
     plt.loglog(darts, errors, label=f'{processor_count} Processors', marker='o', linestyle='-')
 
 plt.xlabel('Number of Darts')
@@ -64,4 +57,5 @@ plt.ylabel('Absolute Error')
 plt.title('Error in Computed/Estimated Pi vs. Number of Darts (Log-Log Scale)')
 plt.legend()
 plt.grid(True, which="both", ls="--")
+
 plt.show()
