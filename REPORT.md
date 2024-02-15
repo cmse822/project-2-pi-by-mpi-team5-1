@@ -125,18 +125,20 @@ Output: task3_question2.5.output
 - Q1  
 ser_pi_calc_p2.cpp
 
-- Q2
+- Q2   
 
 
-- Q3
+- Q3  
 
 
-- Q4
+- Q4     
+ser_pi_calc_p4.cpp 
+
+- Q5  
 
 
-- Q5
-
-- Q6
+- Q6   
 
 
-- Q7
+- Q7   
+(I have results on the same core but I need to check how to request different cores still --Erika)
