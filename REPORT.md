@@ -122,4 +122,21 @@ Output: task3_question2.5.output
 
 
 ### Part 4
-To be completed
+- Q1  
+ser_pi_calc_p2.cpp
+
+- Q2
+
+
+- Q3
+
+
+- Q4
+
+
+- Q5
+
+- Q6
+
+
+- Q7
