@@ -1,0 +1,45 @@
+Lmod Warning: Input module (gcc) not found, using module: GCC . . . (ICER v.) 
+
+
+Lmod Warning: Input module (openmpi) not found, using module: OpenMPI . . .
+(ICER v.) 
+
+
+Lmod Warning: Input module (hdf5) not found, using module: HDF5 . . . (ICER
+v.) 
+
+
+Lmod Warning: Input module (python) not found, using module: Python . . .
+(ICER v.) 
+
+
+JobId=31345081 JobName=pi_estimate
+   UserId=zhengyil(982779) GroupId=cse(2010) MCS_label=N/A
+   Priority=61425 Nice=0 Account=general QOS=zhengyil
+   JobState=RUNNING Reason=None Dependency=(null)
+   Requeue=1 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0
+   RunTime=00:00:48 TimeLimit=00:15:00 TimeMin=N/A
+   SubmitTime=2024-02-15T11:37:40 EligibleTime=2024-02-15T11:37:40
+   AccrueTime=2024-02-15T11:37:40
+   StartTime=2024-02-15T11:37:59 EndTime=2024-02-15T11:52:59 Deadline=N/A
+   SuspendTime=None SecsPreSuspend=0 LastSchedEval=2024-02-15T11:37:59 Scheduler=Backfill
+   Partition=general-long AllocNode:Sid=dev-intel18:36120
+   ReqNodeList=(null) ExcNodeList=(null)
+   NodeList=skl-044
+   BatchHost=skl-044
+   NumNodes=1 NumCPUs=16 NumTasks=4 CPUs/Task=4 ReqB:S:C:T=0:0:*:*
+   ReqTRES=cpu=16,mem=2G,node=1,billing=311
+   AllocTRES=cpu=16,mem=2G,node=1,billing=311
+   Socks/Node=* NtasksPerN:B:S:C=0:0:*:* CoreSpec=*
+   MinCPUsNode=4 MinMemoryNode=2G MinTmpDiskNode=0
+   Features=[intel14|intel16|intel18|(amr|acm)|nvf|nal|nif]&intel18 DelayBoot=00:00:00
+   OverSubscribe=OK Contiguous=0 Licenses=(null) Network=(null)
+   Command=/mnt/gs21/scratch/zhengyil/project-2-pi-by-mpi-team5-1/Part4/submitjob.sb
+   WorkDir=/mnt/gs21/scratch/zhengyil/project-2-pi-by-mpi-team5-1/Part4
+   Comment=stdout=/mnt/gs21/scratch/zhengyil/project-2-pi-by-mpi-team5-1/Part4/slurm-31345081.out 
+   StdErr=/mnt/gs21/scratch/zhengyil/project-2-pi-by-mpi-team5-1/Part4/slurm-31345081.out
+   StdIn=/dev/null
+   StdOut=/mnt/gs21/scratch/zhengyil/project-2-pi-by-mpi-team5-1/Part4/slurm-31345081.out
+   Power=
+   
+
