@@ -1,264 +1,152 @@
-Processor name: skl-059
+srun: warning: can't run 2 processes on 4 nodes, setting nnodes to 2
 total processor count: 2
-Processor name: skl-059
-total processor count: 2
-1000
+Processor name: skl-018
+Processor name: skl-019
 1000
 Estimated Pi = 3.14
-Rank: 0 Calculation took 0.00085404 seconds.
-Rank: 1 Calculation took 0.000776314 seconds.
-Total runtime = 0.00085404
-1000000
+Rank: 0 Calculation took 0.00086519 seconds.
+Rank: 1 Calculation took 0.000698809 seconds.
+Total runtime = 0.00086519
 1000000
 Estimated Pi = 3.14152
-Rank: 0 Calculation took 0.693666 seconds.
-Total runtime = 0.693666
-1000000000
-Rank: 1 Calculation took 0.692207 seconds.
+Rank: 0 Calculation took 0.638734 seconds.
+Rank: 1 Calculation took 0.62535 seconds.
+Total runtime = 0.638734
 1000000000
 Estimated Pi = 3.14159
-Rank: 0 Calculation took 8.4632 seconds.
-Total runtime = 8.4632
-Rank: 1 Calculation took 8.44243 seconds.
-Processor name: skl-059
-Processor name: skl-059
+Rank: 0 Calculation took 7.68396 seconds.
+Total runtime = 7.68396
+Rank: 1 Calculation took 7.65244 seconds.
+
+
 total processor count: 4
-Processor name: skl-059
-total processor count: 4
-Processor name: skl-059
-total processor count: 4
-total processor count: 4
-1000
-1000
-1000
+Processor name: skl-018
+Processor name: skl-020
+Processor name: skl-021
+Processor name: skl-019
 1000
 Estimated Pi = 3.14596
-Rank: 0 Calculation took 0.000502758 seconds.
-Rank: 1 Calculation took 0.000385324 seconds.
-Rank: 2 Calculation took 0.000380077 seconds.
-1000000
-Rank: 3 Calculation took 0.000391582 seconds.
-1000000
-Total runtime = 0.000502758
-1000000
+Rank: 0 Calculation took 0.000852601 seconds.
+Rank: 1 Calculation took 0.000360039 seconds.
+Rank: 3 Calculation took 0.000646691 seconds.
+Rank: 2 Calculation took 0.000383298 seconds.
+Total runtime = 0.000852601
 1000000
 Estimated Pi = 3.14149
-Rank: 0 Calculation took 0.347879 seconds.
-Total runtime = 0.347879
-1000000000
-Rank: 1 Calculation took 0.347862 seconds.
-1000000000
-Rank: 2 Calculation took 0.335862 seconds.
-1000000000
-Rank: 3 Calculation took 0.335437 seconds.
+Rank: 0 Calculation took 0.327027 seconds.
+Rank: 1 Calculation took 0.310971 seconds.
+Rank: 3 Calculation took 0.3107 seconds.
+Rank: 2 Calculation took 0.326992 seconds.
+Total runtime = 0.327027
 1000000000
 Estimated Pi = 3.14158
-Rank: 0 Calculation took 4.23277 seconds.
-Rank: 2 Calculation took 4.17951 seconds.
-Rank: 1 Calculation took 4.23276 seconds.
-Rank: 3 Calculation took 4.17457 seconds.
-Total runtime = 4.23277
-Processor name: skl-059
+Rank: 0 Calculation took 3.86263 seconds.
+Rank: 1 Calculation took 3.8035 seconds.
+Rank: 3 Calculation took 3.86247 seconds.
+Rank: 2 Calculation took 3.83979 seconds.
+Total runtime = 3.86263
+
+
+srun: warning: can't honor --ntasks-per-node set to 4 which doesn't match the requested tasks 8 with the number of requested nodes 4. Ignoring --ntasks-per-node.
 total processor count: 8
-Processor name: skl-059
-total processor count: 8
-Processor name: skl-059
-total processor count: 8
-Processor name: skl-059
-total processor count: 8
-Processor name: skl-059
-total processor count: 8
-Processor name: skl-059
-total processor count: 8
-Processor name: skl-059
-total processor count: 8
-Processor name: skl-059
-total processor count: 8
-1000
-1000
-1000
-1000
-1000
-1000
-1000
+Processor name: skl-018
+Processor name: skl-019
+Processor name: skl-020
+Processor name: skl-021
 1000
 Estimated Pi = 3.14096
-Rank: 0 Calculation took 0.000312348 seconds.
-Rank: 2 Calculation took 0.000223899 seconds.
-Rank: 4 Calculation took 0.000234262 seconds.
-Rank: 6 Calculation took 0.000222949 seconds.
-Rank: 1 Calculation took 0.000216676 seconds.
-Rank: 3 Calculation took 0.000223595 seconds.
-Rank: 5 Calculation took 0.00021611 seconds.
-Rank: 7 Calculation took 0.000223739 seconds.
-Total runtime = 0.000312348
-1000000
-1000000
-1000000
-1000000
-1000000
-1000000
-1000000
+Rank: 0 Calculation took 0.000556462 seconds.
+Rank: 2 Calculation took 0.000212994 seconds.
+Rank: 1 Calculation took 0.000185065 seconds.
+Rank: 3 Calculation took 0.000212674 seconds.
+Rank: 4 Calculation took 0.000459835 seconds.
+Rank: 5 Calculation took 0.000191078 seconds.
+Rank: 6 Calculation took 0.000201554 seconds.
+Rank: 7 Calculation took 0.000194342 seconds.
+Total runtime = 0.000556462
 1000000
 Estimated Pi = 3.14167
-Rank: 0 Calculation took 0.184544 seconds.
-Total runtime = 0.184544
-1000000000
-Rank: 1 Calculation took 0.183908 seconds.
-1000000000
-Rank: 2 Calculation took 0.183995 seconds.
-1000000000
-Rank: 3 Calculation took 0.183886 seconds.
-1000000000
-Rank: 4 Calculation took 0.184509 seconds.
-1000000000
-Rank: 5 Calculation took 0.168526 seconds.
-1000000000
-Rank: 6 Calculation took 0.184507 seconds.
-1000000000
-Rank: 7 Calculation took 0.184502 seconds.
+Rank: 0 Calculation took 0.164773 seconds.
+Rank: 1 Calculation took 0.159158 seconds.
+Rank: 2 Calculation took 0.160293 seconds.
+Rank: 4 Calculation took 0.164721 seconds.
+Rank: 7 Calculation took 0.163832 seconds.
+Rank: 3 Calculation took 0.16031 seconds.
+Rank: 5 Calculation took 0.163551 seconds.
+Rank: 6 Calculation took 0.164636 seconds.
+Total runtime = 0.164773
 1000000000
 Estimated Pi = 3.14159
-Rank: 0 Calculation took 2.23575 seconds.
-Rank: 6 Calculation took 2.23553 seconds.
-Rank: 2 Calculation took 2.22777 seconds.
-Rank: 4 Calculation took 2.23554 seconds.
-Rank: 1 Calculation took 2.22884 seconds.
-Rank: 5 Calculation took 2.08946 seconds.
-Rank: 7 Calculation took 2.23552 seconds.
-Rank: 3 Calculation took 2.2271 seconds.
-Total runtime = 2.23575
-Processor name: skl-059
+Rank: 0 Calculation took 1.99611 seconds.
+Rank: 3 Calculation took 1.9769 seconds.
+Rank: 7 Calculation took 1.9861 seconds.
+Rank: 1 Calculation took 1.9186 seconds.
+Rank: 2 Calculation took 1.97689 seconds.
+Rank: 4 Calculation took 1.99602 seconds.
+Rank: 6 Calculation took 1.99593 seconds.
+Rank: 5 Calculation took 1.97833 seconds.
+Total runtime = 1.99611
+
+
 total processor count: 16
-Processor name: skl-059
-total processor count: 16
-Processor name: skl-059
-total processor count: 16
-1000
-Processor name: skl-059
-total processor count: 16
-Processor name: skl-059
-total processor count: 16
-1000
-Processor name: skl-059
-total processor count: 16
-Processor name: skl-059
-total processor count: 16
-1000
-Processor name: skl-059
-total processor count: 16
-Processor name: skl-059
-total processor count: 16
-1000
-Processor name: skl-059
-total processor count: 16
-Processor name: skl-059
-total processor count: 16
-1000
-Processor name: skl-059
-total processor count: 16
-Processor name: skl-059
-total processor count: 16
-1000
-Processor name: skl-059
-total processor count: 16
-Processor name: skl-059
-total processor count: 16
-1000
-Processor name: skl-059
-total processor count: 16
-1000
-1000
-1000
-1000
-1000
-1000
-1000
-1000
+Processor name: skl-018
+Processor name: skl-019
+Processor name: skl-020
+Processor name: skl-021
 1000
 Estimated Pi = 3.1366
-Rank: 0 Calculation took 0.000547447 seconds.
-Rank: 4 Calculation took 0.000473778 seconds.
-Rank: 6 Calculation took 0.000468268 seconds.
-Rank: 2 Calculation took 0.000465718 seconds.
-Rank: 8 Calculation took 0.000472852 seconds.
-Rank: 10 Calculation took 0.000466852 seconds.
-Rank: 12 Calculation took 0.000471184 seconds.
-Rank: 14 Calculation took 0.000468039 seconds.
-Rank: 1 Calculation took 0.000111258 seconds.
-Rank: 3 Calculation took 0.000110687 seconds.
-Rank: 5 Calculation took 0.000112102 seconds.
-Rank: 7 Calculation took 0.000109779 seconds.
-Rank: 9 Calculation took 0.000110146 seconds.
-Rank: 11 Calculation took 0.000107948 seconds.
-Rank: 13 Calculation took 0.000108586 seconds.
-Rank: 15 Calculation took 0.000110241 seconds.
-Total runtime = 0.000547447
-1000000
-1000000
-1000000
-1000000
-1000000
-1000000
-1000000
-1000000
-1000000
-1000000
-1000000
-1000000
-1000000
-1000000
-1000000
+Rank: 0 Calculation took 0.000537543 seconds.
+Rank: 1 Calculation took 0.000105463 seconds.
+Rank: 2 Calculation took 0.000121452 seconds.
+Rank: 4 Calculation took 0.000451519 seconds.
+Rank: 3 Calculation took 0.000103411 seconds.
+Rank: 5 Calculation took 0.000116404 seconds.
+Rank: 12 Calculation took 0.00043563 seconds.
+Rank: 8 Calculation took 0.000430602 seconds.
+Rank: 6 Calculation took 0.000103573 seconds.
+Rank: 13 Calculation took 0.000103135 seconds.
+Rank: 9 Calculation took 0.000104328 seconds.
+Rank: 7 Calculation took 0.000115341 seconds.
+Rank: 14 Calculation took 0.000107229 seconds.
+Rank: 10 Calculation took 0.00012047 seconds.
+Rank: 15 Calculation took 0.000104779 seconds.
+Rank: 11 Calculation took 0.000102843 seconds.
+Total runtime = 0.000537543
 1000000
 Estimated Pi = 3.14163
-Rank: 0 Calculation took 0.0933499 seconds.
-Rank: 8 Calculation took 0.0923011 seconds.
-Rank: 10 Calculation took 0.0918328 seconds.
-Rank: 12 Calculation took 0.0922999 seconds.
-Rank: 14 Calculation took 0.0923012 seconds.
-Rank: 2 Calculation took 0.0923477 seconds.
-Rank: 4 Calculation took 0.0929919 seconds.
-Rank: 6 Calculation took 0.0922094 seconds.
-Rank: 3 Calculation took 0.0920734 seconds.
-Rank: 5 Calculation took 0.0929761 seconds.
-Rank: 7 Calculation took 0.0921298 seconds.
-Rank: 9 Calculation took 0.0922803 seconds.
-Rank: 11 Calculation took 0.0918332 seconds.
-Rank: 13 Calculation took 0.0921364 seconds.
-Rank: 15 Calculation took 0.092304 seconds.
-Rank: 1 Calculation took 0.0926488 seconds.
-Total runtime = 0.0933499
-1000000000
-1000000000
-1000000000
-1000000000
-1000000000
-1000000000
-1000000000
-1000000000
-1000000000
-1000000000
-1000000000
-1000000000
-1000000000
-1000000000
-1000000000
+Rank: 8 Calculation took 0.0837352 seconds.
+Rank: 4 Calculation took 0.0837508 seconds.
+Rank: 0 Calculation took 0.0841654 seconds.
+Rank: 2 Calculation took 0.0841552 seconds.
+Rank: 6 Calculation took 0.0837794 seconds.
+Rank: 12 Calculation took 0.0824913 seconds.
+Rank: 14 Calculation took 0.0822445 seconds.
+Rank: 10 Calculation took 0.0836722 seconds.
+Rank: 1 Calculation took 0.083242 seconds.
+Rank: 13 Calculation took 0.082538 seconds.
+Rank: 9 Calculation took 0.0834515 seconds.
+Rank: 11 Calculation took 0.0837355 seconds.
+Rank: 5 Calculation took 0.0834356 seconds.
+Rank: 15 Calculation took 0.081555 seconds.
+Rank: 3 Calculation took 0.084115 seconds.
+Rank: 7 Calculation took 0.0838095 seconds.
+Total runtime = 0.0841654
 1000000000
 Estimated Pi = 3.14161
-Rank: 0 Calculation took 1.13637 seconds.
-Rank: 2 Calculation took 1.12864 seconds.
-Rank: 4 Calculation took 1.13634 seconds.
-Rank: 6 Calculation took 1.12835 seconds.
-Rank: 8 Calculation took 1.13065 seconds.
-Rank: 10 Calculation took 1.12568 seconds.
-Rank: 12 Calculation took 1.12856 seconds.
-Rank: 14 Calculation took 1.12854 seconds.
-Rank: 9 Calculation took 1.12894 seconds.
-Rank: 13 Calculation took 1.12593 seconds.
-Rank: 5 Calculation took 1.13619 seconds.
-Rank: 1 Calculation took 1.12786 seconds.
-Rank: 7 Calculation took 1.12818 seconds.
-Rank: 15 Calculation took 1.12839 seconds.
-Total runtime = 1.13637
-Rank: 3 Calculation took 1.12492 seconds.
-Rank: 11 Calculation took 1.12554 seconds.
+Rank: 0 Calculation took 1.01862 seconds.
+Rank: 1 Calculation took 1.00908 seconds.
+Rank: 5 Calculation took 1.0152 seconds.
+Rank: 2 Calculation took 1.00908 seconds.
+Rank: 6 Calculation took 1.0185 seconds.
+Rank: 4 Calculation took 1.01846 seconds.
+Rank: 8 Calculation took 1.01651 seconds.
+Rank: 13 Calculation took 1.00856 seconds.
+Rank: 14 Calculation took 1.00499 seconds.
+Rank: 9 Calculation took 1.01278 seconds.
+Rank: 10 Calculation took 1.01656 seconds.
+Rank: 7 Calculation took 1.01827 seconds.
+Rank: 12 Calculation took 1.00859 seconds.
+Rank: 15 Calculation took 0.996035 seconds.
+Rank: 3 Calculation took 1.00827 seconds.
+Rank: 11 Calculation took 1.01634 seconds.
+Total runtime = 1.01862

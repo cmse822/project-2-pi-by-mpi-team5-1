@@ -1,0 +1,24 @@
+#!/bin/bash
+########## Define Resources Needed with SBATCH Lines ##########
+ 
+#SBATCH --time=00:15:00             # limit of wall clock time - how long the job will run (same as -t)
+#SBATCH --nodes=4
+#SBATCH --ntasks-per-node=4
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=2G                    # memory required per node - amount of memory (in bytes)
+#SBATCH --job-name pi_estimate      # you can give your job a name for easier identification (same as -J)
+#SBATCH --constraint=intel18
+ 
+########## Command Lines to Run ##########
+
+module purge
+module load gcc/7.3.0-2.30 openmpi hdf5 python git
+  
+cd $SLURM_SUBMIT_DIR                   ### change to the directory where your code is located
+ 
+srun -n 2 p4.o  >> p7_intel18_4cores.output 2>&1 
+srun -n 4 p4.o  >> p7_intel18_4cores.output 2>&1           ### call your executable
+srun -n 8 p4.o  >> p7_intel18_4cores.output 2>&1 
+srun -n 16 p4.o  >> p7_intel18_4cores.output 2>&1 
+ 
+scontrol show job $SLURM_JOB_ID     ### write job information to output file
