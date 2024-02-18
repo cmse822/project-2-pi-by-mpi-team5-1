@@ -126,19 +126,36 @@ Output: task3_question2.5.output
 ser_pi_calc_p2.cpp
 
 - Q2   
-
+results: p1_3.output    
+The total runtime decreeases as number of ranks increases.  
 
 - Q3  
-
+results: p1_3.output    
+The total runtime decreeases as number of ranks increases. Since the rounds are divided, the total of runtime is lower as compared to that of in Q2 with the same rank.  
 
 - Q4     
 ser_pi_calc_p4.cpp 
 
 - Q5  
-
+![q5_plot](Part4/p5.png)  
+The results of the plot and the convergence rates are varied. On AMD20, we see that processor counts 4, 16, and 64
+show diminishing convergence rates from 1E6 to 1E9 whereas processor counts 1, 2, 8, and 32 show faster convergences
+from 1E6 to 1E9 and have a lower absolute error in the estimates of Pi.  It is clear that as we increase the number of 
+simuluations that we approximate the true values of Pi, however why there is an irregular pattern about which processor
+counts have better/worse approximations of Pi could be due to the randomness of the simulations.  
 
 - Q6   
-
+![q6_e3](Part4/p6_e3.png)  
+![q6_e6](Part4/p6_e6.png)  
+![q5_e9](Part4/p6_e9.png)  
+We have plotted the runtimes for each of the different dart counts 1E3 - 1E9 over the processor counts. Using the 
+scale-up formula of T1/TN, we see varying results over the different dart counts as the number of processors increases.
+For 1E3 darts, there are clear indications of inefficiency as processor counts increase -- this is likely due to several
+factors.  Some of the probable reasons are overhead communication between the processors and likely due to Amdhal's law.
+Overhead communication costs are, with a marginal change of a given processor, greater than the marginal improvements in 
+run time as the number of processors increase beyond around 15 when we operate on 1E3 darts.  The fact that the actual runtime
+approximates the ideal scaling for 1E6 and 1E9 darts supports Amdhal's law because the proportion of the parallelizable work
+becomes larger as we increase the amount of darts.
 
 - Q7   
 (I have results on the same core but I need to check how to request different cores still --Erika)
