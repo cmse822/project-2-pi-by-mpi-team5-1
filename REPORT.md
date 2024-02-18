@@ -158,7 +158,10 @@ approximates the ideal scaling for 1E6 and 1E9 darts supports Amdhal's law becau
 becomes larger as we increase the amount of darts.
 
 - Q7
-We generated plots for the absolute error v darts number for different number of nodes. The plots we get seem to be consistent with part 6. 
+We generated plots for the absolute error v darts number for different number of nodes. The plots we get seem to be consistent with part 5.
+
+The interesting output here is that for almost all the different nodes, when we increase number of prossecors to 8 the absolute error decreases but then goes up again for 16, which is also consistent with what we expected.
+
 ![q7_intel18_1](Part4/Intel18-1-question7.png) 
 ![q7_intel18_4](Part4/Intel18-4-question7.png) 
 ![q7_intel18_8](Part4/Intel18-8-question7.png) 
