@@ -157,5 +157,10 @@ run time as the number of processors increase beyond around 15 when we operate o
 approximates the ideal scaling for 1E6 and 1E9 darts supports Amdhal's law because the proportion of the parallelizable work
 becomes larger as we increase the amount of darts.
 
-- Q7   
-(I have results on the same core but I need to check how to request different cores still --Erika)
+- Q7
+We generated plots for the absolute error v darts number for different number of nodes. The plots we get seem to be consistent with part 6. 
+![q7_intel18_1](Part4/Intel18-1-question7.png) 
+![q7_intel18_4](Part4/Intel18-4-question7.png) 
+![q7_intel18_8](Part4/Intel18-8-question7.png) 
+![q7_AMD20_1](Part4/AMD20-1-question7.png) 
+![q7_AMD22_1](Part4/AMD22-1-question7.png)  
