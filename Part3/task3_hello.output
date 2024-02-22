@@ -1,0 +1,12 @@
+before init
+before init
+before init
+before init
+hello world! from process: 2
+hello world! from process: 0
+hello world! from process: 1
+hello world! from process: 3
+after finalize, rank: 2
+after finalize, rank: 0
+after finalize, rank: 3
+after finalize, rank: 1

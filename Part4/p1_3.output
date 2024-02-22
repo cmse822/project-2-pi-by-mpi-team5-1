@@ -1,0 +1,50 @@
+Part 4: Eating Some Pi
+1.	We’ve extended the .cpp file to include the OpenMPI routines to run on four nodes; by including the necessary changes in the .cpp file, then executing ‘mpiexec -n 4 ser_calc_pi’ 
+2.	Once making the .cpp adjustments, we then execute and get the following for our 1,000,000th iteration and total runtime under the different rank/node distributions:
+
+mpiexec -n 1 ./ser_pi_calc_p2:
+After 1000000 throws, average value of pi = 3.15120000
+Real value of PI: 3.1415926535897 
+Total runtime: 0.036455 seconds
+mpiexec -n 2 ./ser_pi_calc_p2
+After 1000000 throws, average value of pi = 3.13600000
+Real value of PI: 3.1415926535897 
+Total runtime: 0.020246 seconds
+
+mpiexec -n 3 ./ser_pi_calc_p2
+After 1000000 throws, average value of pi = 3.13111311
+Real value of PI: 3.1415926535897 
+Total runtime: 0.014873 seconds
+
+mpiexec -n 4 ./ser_pi_calc_p2
+After 1000000 throws, average value of pi = 3.12960000
+Real value of PI: 3.1415926535897 
+Total runtime: 0.012719 seconds
+
+3.	Below is the results and runtimes after we divide the number of rounds amongst the different ranks.  There are clear improvements in the runtime calculations as we distribute above 1 rank:
+
+mpiexec -n 1 ./ser_pi_calc_p3:
+Starting parallel version of pi calculation using dartboard algorithm...
+After 100 rounds, average value of pi = 3.14174400
+Real value of PI: 3.1415926535897 
+Total runtime: 0.035544 seconds
+
+mpiexec -n 2 ./ser_pi_calc_p3
+Starting parallel version of pi calculation using dartboard algorithm...
+After 100 rounds, average value of pi = 3.14193600
+Real value of PI: 3.1415926535897 
+Total runtime: 0.009178 seconds
+
+mpiexec -n 3 ./ser_pi_calc_p3
+Starting parallel version of pi calculation using dartboard algorithm...
+After 100 rounds, average value of pi = 3.14744202
+Real value of PI: 3.1415926535897 
+Total runtime: 0.005017 seconds
+
+mpiexec -n 4 ./ser_pi_calc_p4
+Starting parallel version of pi calculation using dartboard algorithm...
+   		After 100 rounds, average value of pi = 3.14291200
+Real value of PI: 3.1415926535897 
+Total runtime: 0.003087 seconds
+
+
